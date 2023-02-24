@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tailwind Blog</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="js/script.js"></script>
+
+</head>
+
+<body class="bg-nude font-serif leading-normal tracking-normal">
+
+	<!--Header y tirulo dentro del banner-->
+	<div class="w-full h-auto m-0 p-0 bg-cover bg-bottom"
+		style="background-image:url('https://video-images.vice.com/articles/63d9548ada66221334f66f51/lede/1675188354277-papanikita.jpeg?crop=1xw:0.8432xh;0xw,0.1568xh&resize=1000:*%201x,%20https://video-images.vice.com/articles/63d9548ada66221334f66f51/lede/1675188354277-papanikita.jpeg?crop=1xw:0.8432xh;0xw,0.1568xh&resize=2000:*%202x'); height: 60vh; max-height:560px;">
+		<div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
+			<!--Titulo en medio de la imagen-->
+			<h1 class="text-3xl font-serif font-semibold text-nude md:text-5xl">Elysian Portal</h1>
+			<br>
+			<p class="text-xl font-serif md:text-2xl text-nude">Welcome to a new experience!</p>
+		</div>
+	</div>
+
+
+	<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+
+		<div class="mx-0 sm:mx-6">
+
+			<!--Navegador o barra navegadora-->
+			<nav class="mt-0 w-full">
+				<div class="container flex flex-wrap items-center justify-between mx-auto">
+					<a href="#" class="flex items-center">
+						<img src="img/Elysianlg.png" class="h-8 mr-3 sm:h-10" alt="Flowbite Logo" />
+
+					</a>
+					<button data-collapse-toggle="navbar-solid-bg" type="button"
+						class="inline-flex items-center p-2 ml-3 text-sm text-jade rounded-lg md:hidden hover:bg-orchid focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+						aria-controls="navbar-solid-bg" aria-expanded="false">
+						<span class="sr-only">Open main menu</span>
+						<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+								clip-rule="evenodd"></path>
+						</svg>
+					</button>
+
+					<div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+						<ul
+							class="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-nude md:dark:bg-transparent dark:border-cream">
+							<li>
+								<a href="#"
+									class="block py-2 pl-3 pr-4 font-serif text-nude bg-nude rounded md:bg-transparent md:text-cream md:p-0 md:dark:text-nude dark:bg-nude md:dark:bg-transparent"
+									aria-current="page">Home</a>
+							</li>
+							<li>
+								<a href="#"
+									class="block py-2 pl-3 pr-4 text-nude rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 dark:text-nude md:dark:hover:text-nude dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Photography</a>
+							</li>
+							<li>
+								<a href="#"
+									class="block py-2 pl-3 pr-4 text-nude rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 dark:text-nude md:dark:hover:text-nude dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Fashion</a>
+							</li>
+							<li>
+								<a href="#"
+									class="block py-2 pl-3 pr-4 text-nude rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 dark:text-nude md:dark:hover:text-orchid dark:hover:bg-nude dark:hover:text-white md:dark:hover:bg-transparent">Contact
+									Us!</a>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+									class="w-6 h-6 text-orchid text-center">
+									<path
+										d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+								</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+									class="w-6 h-6 text-nude text-center">
+									<path
+										d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+								</svg>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</nav>
+
+			<div class="bg-gray-200 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
+
+				<!--art 1 wepale-->
+				<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
+					<a href="fashion" class="flex flex-wrap no-underline hover:no-underline">
+						<div class="w-full md:w-2/3 rounded-t">
+							<img src="https://video-images.vice.com/articles/63468b28edd9480094d359f6/lede/1665571464779-collage-maker-12-oct-2022-0644-am.jpeg?crop=1xw:1xh;center,center&resize=900:*%201x,%20https://video-images.vice.com/articles/63468b28edd9480094d359f6/lede/1665571464779-collage-maker-12-oct-2022-0644-am.jpeg?crop=1xw:1xh;center,center&resize=1800:*%202x"
+								class="h-full w-full shadow w-500 h-500">
+						</div>
+
+						<div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
+							<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+								<p class="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">FASHION/ BY ZOË KENDALL</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Meet Lucky Jewel, the cult New
+									York
+									art collective taking on fashion</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									Between gallery shows and pop-up shops, Olive Woodward, Shay Gallagher and Lola
+									Dement
+									Myers designed a cheeky collection for the post-girlboss era.
+								</p>
+							</div>
+
+							<div
+								class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+								<div class="flex items-center justify-between">
+									<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+										src="https://i.pinimg.com/564x/2e/76/ac/2e76ac6ec6b567ae44d62c59db7808c3.jpg"
+										alt="Avatar of Author">
+									<p class="text-gray-600 text-xs md:text-sm">5 MIN READ</p>
+								</div>
+							</div>
+						</div>
+
+					</a>
+				</div>
+				<!--/art1-->
+
+
+				<!--Contenedor post, aquí hay articulos en columnas-->
+				<div class="flex flex-wrap justify-between pt-12 -mx-6">
+
+					<!--3 columnas, articulos diversos 1/3-->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://video-images.vice.com/_uncategorized/1666963797649-idelections58.jpeg?resize=800:*%201x,%20https://video-images.vice.com/_uncategorized/1666963797649-idelections58.jpeg?resize=1600:*%202x"
+									class="h-45 w-full rounded-t pb-6">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">BY PEDRO PINHO</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">The São Paulo protesters
+									fighting
+									for the future of Brazilian democracy</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									Photos of rallies for left-wing politician Lula, Brazil's new president, who toppled
+									the
+									right-wing Bolsonaro government in this weekend's election.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+									src="https://i.pinimg.com/736x/86/23/6c/86236c336c9335484d4defcc2f201370.jpg"
+									alt="Avatar of Author">
+								<p class="text-gray-600 text-xs md:text-sm">12 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!--2/3 -->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://video-images.vice.com/articles/63bc5750e86b563582fbcf5f/lede/1676891045709-aftersunstill05creditsarah-makharine1-40a02a5.jpeg?crop=1xw:0.8426xh;0xw,0xh&resize=1000:*%201x,%20https://video-images.vice.com/articles/63bc5750e86b563582fbcf5f/lede/1676891045709-aftersunstill05creditsarah-makharine1-40a02a5.jpeg?crop=1xw:0.8426xh;0xw,0xh&resize=2000:*%202x"
+									class="h-45 w-full rounded-t pb-6">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">FILMS</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">2023's most nominated movies
+									and
+									where to watch them</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									These 44 incredible films appear in the BAFTA, Oscar and Golden Globes’ major
+									categories.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+									src="https://i.pinimg.com/564x/8b/87/73/8b8773f301e1956e75b1d4d3e89487ef.jpg"
+									alt="Avatar of Author">
+								<p class="text-gray-600 text-xs md:text-sm">15 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+					<!--3/3 -->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://video-images.vice.com/_uncategorized/1677083198136-mirror-mirror-at-momu-08-october-2022-26-february-2023-or-wwwmomube-image-5.jpeg?resize=800:*%201x,%20https://video-images.vice.com/_uncategorized/1677083198136-mirror-mirror-at-momu-08-october-2022-26-february-2023-or-wwwmomube-image-5.jpeg?resize=1600:*%202x"
+									class="h-45 w-full rounded-t pb-6">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">FASHION</p>
+								<div class="w-full  font-bold text-xl text-gray-900 px-6">Exploring the psychology of
+									getting dressed through art</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									From Tschabalala Self to Comme Des Garçons and Margiela, a new exhibition looks at
+									how
+									clothing leads to self-creation.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+									src="https://i.pinimg.com/564x/8b/87/73/8b8773f301e1956e75b1d4d3e89487ef.jpg"
+									alt="Avatar of Author">
+								<p class="text-gray-600 text-xs md:text-sm">10 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!--1 -->
+					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://video-images.vice.com/articles/63576ec245840d009974eb9b/lede/1667935396653-1666838218049-004121220012.jpeg?crop=1xw:0.8481xh;0xw,0.0689xh&resize=900:*%201x,%20https://video-images.vice.com/articles/63576ec245840d009974eb9b/lede/1667935396653-1666838218049-004121220012.jpeg?crop=1xw:0.8481xh;0xw,0.0689xh&resize=1800:*%202x"
+									class="h-full w-full rounded-t pb-6">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">CULTURE</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Bala is the collective creating
+									a
+									new Tokyo culture, where anything goes</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									There’s something different about Bala. They might look like your favourite new girl
+									band, but there’s a lot more to them than that. Made up of five artists working
+									across
+									different disciplines in Tokyo’s fashion, music and art scenes, the friends have
+									teamed
+									up to combine their individual tastes and talents into a powerful creative force. So
+									who
+									are they? There’s Manon, who we proclaimed “Japan’s rising hyperpop star” just this
+									summer; Asa Wu, a trilingual R&B singer from Taiwan; Sunny Only 1, a model and punk
+									musician; 00s-inspired creative director, photographer and videographer Dan; and
+									Kano
+									Rogers, who is behind the group’s playful 3D graphics.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+									src="https://i.pinimg.com/564x/81/1b/f6/811bf6a073b7b94b4a51b4e6eb001850.jpg"
+									alt="Avatar of Author">
+								<p class="text-gray-600 text-xs md:text-sm">5 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+					<!--2 
+					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 flex-row bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://video-images.vice.com/_uncategorized/1667578640717-img7382-1200x800-medium.jpeg?resize=800:*%201x,%20https://video-images.vice.com/_uncategorized/1667578640717-img7382-1200x800-medium.jpeg?resize=1600:*%202x"
+									class="h-full w-full rounded-t pb-6">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">ART</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">The artist channelling
+									Indigenous spirituality into her practice</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									A life-changing experience in the Arctic transformed Himali Singh Soin's beliefs —
+									and her work.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+									src="https://i.pinimg.com/564x/81/1b/f6/811bf6a073b7b94b4a51b4e6eb001850.jpg"
+									alt="Avatar of Author">
+								<p class="text-gray-600 text-xs md:text-sm">14 MIN READ</p>
+							</div>
+						</div>
+					</div> -->
+
+
+
+					<!--2 col -->
+					<div class="w-full md:w-2/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://video-images.vice.com/_uncategorized/1669734404253-img3016.jpeg?resize=800:*%201x,%20https://video-images.vice.com/_uncategorized/1669734404253-img3016.jpeg?resize=1600:*%202x"
+									class="h-full w-full rounded-t pb-6">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">PHOTO</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">What your November 2022 looked
+									like</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									From Botswana to Uzbekistan, here's a snapshot of the world from last month.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+									src="https://i.pinimg.com/564x/7a/a5/cc/7aa5ccbcf8f8c116953d8993dfa79d8c.jpg"
+									alt="Avatar of Author">
+								<p class="text-gray-600 text-xs md:text-sm">10 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+					<!--1 col -->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://video-images.vice.com/articles/63f558a0519e92ebf8a4ee68/lede/1677172336906-corecore2.jpeg?crop=1xw:1xh;center,center&resize=900:*%201x,%20https://video-images.vice.com/articles/63f558a0519e92ebf8a4ee68/lede/1677172336906-corecore2.jpeg?crop=1xw:1xh;center,center&resize=1800:*%202x"
+									class="h-full w-full rounded-t pb-6">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">OPINION</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Corecore is the internet
+									screaming from inside itself.</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									From anti-capitalist compilations to video collages tackling loneliness, the new
+									TikTok genre is here to make us feel something.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
+									src="https://i.pinimg.com/564x/7a/a5/cc/7aa5ccbcf8f8c116953d8993dfa79d8c.jpg"
+									alt="Avatar of Author">
+								<p class="text-gray-600 text-xs md:text-sm">5 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--/ Post Content-->
+
+			</div>
+
+
+
+			<!--Autoria, dueño del blog-->
+			<div class="flex w-full items-center font-serif p-8 md:p-24">
+				<img class="w-10 h-10 rounded-full mr-4" src="img/Elysianlg.png" alt="Avatar of Author">
+				<div class="flex-1">
+					<p class="text-base font-bold text-base md:text-xl leading-none">Elysian Blog</p>
+					<p class="text-orchid text-xs md:text-base">Here are stories that capture what being young and Gen z
+						looked like </p>
+				</div>
+				<div class="justify-end">
+					<button
+						class="bg-transparent border border-cream hover:border-nude text-xs text-jade hover:text-supple font-bold py-2 px-4 rounded-full">Read
+						More</button>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+
+	<footer class="bg-frosted">
+		<div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
+
+			<div class="w-full mx-auto flex flex-wrap items-center">
+				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-orchid font-extrabold">
+					<a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
+						<span class="text-base text-supple"> &copy; Mariana iraheta</span>
+					</a>
+				</div>
+				<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+					<ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+								class="w-6 h-6 text-orchid">
+								<path
+									d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+							</svg>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+
+
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+	<script src="https://unpkg.com/tippy.js@4"></script>
+</body>
+
+</html>
